@@ -1,0 +1,38 @@
+.header {
+    width: 95%;
+    margin: 15px auto;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 15px auto;
+    border: 2px solid red;
+    padding: 20px 0;
+}
+
+.main div:first-child {
+    margin-left: 15px;
+}
+
+.main div img {
+    height: 500px;
+}
+
+.main div:nth-child(2) {
+    margin-left: 20px;
+}
+
+.main div:nth-child(3) {
+    margin-left: 20px;
+}
+
+.footer {
+    width: 95%;
+    margin: 15px auto;
+    border: 2px solid red;
+    text-align: center;
+}
